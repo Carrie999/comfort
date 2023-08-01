@@ -1,0 +1,132 @@
+
+.theme-dark {
+	--background-primary: #18004F;
+	--background-secondary: #220070;
+}
+  
+.theme-light {
+	--color-red-rgb:
+    197,
+    65,
+    40;
+	--background-primary: #fcfef3;
+	--background-secondary: #f8f6ea;
+	--background-secondary-alt: #a3d5aa;
+	--background-modifier-hover: #a3d5aa;
+	/* --background-modifier-active-hover: red; */
+	/* --text-normal:#969592; */
+	/* --text-normal: #898885; */
+	/* --text-normal:#696864; */
+	--text-normal:#6f6e6a;
+	--nav-item-color-active:#edf4f0;
+	--nav-item-color-hover:#edf4f0;
+	--tab-container-background:#a3d5aa;
+	--input-shadow: none;
+	--interactive-normal: #eff1df;
+	--interactive-hover: #e5e8c2;
+}
+
+
+
+
+body {
+	font-family: "宋体",SimSun !important;
+	--radius-s: 0px;
+	--radius-m: 0px;
+	--radius-l: 0px;
+	--input-radius: 0px;
+	--tab-radius-active: 0px;
+	--checkbox-radius: 0px;
+	--toggle-radius: 0px;
+	--toggle-thumb-radius: 0px;
+	--slider-thumb-radius: 0px;
+	--tab-container-background:#a3d5aa;
+	--tab-text-color:#e6f1e9;
+	--tab-text-color-focused:#e6f1e9;
+	--tab-outline-width:0;
+	--tab-outline-color:#f8f6ea;
+	--icon-color:#ffffff;
+	--icon-color-hover:#e6f1e9;
+	--icon-color-active:#ffffff;
+	--ribbon-background:#a3d5aa;
+	--titlebar-background: #a3d5aa;
+	--divider-color:rgba(0,0,0,0);
+	--icon-color-focused:#edf4f0;
+	--icon-color-active:#edf4f0;
+	--tab-text-color-focused-active-current:#66876b;
+	--tab-divider-color:#b4d8b4;
+	/* --tab-container-background: var(--background-secondary); */
+	--nav-indentation-guide-color:rgba(0,0,0,0);
+	--vault-name-color:#636867;
+	/* --vault-name-color-hover:#a3a7a6; */
+	--nav-item-color:#626666;
+	/* --vault-name-fontsize:0; */
+	/* --nav-collapse-icon-hover:red; */
+	--tag-color:#fcfdfe;
+	--tag-background:#d4e4f1;
+	--link-external-color:#5273a5;
+	--link-external-color-hover:#1a4078;
+	--background-modifier-border:rgba(0,0,0,0);
+	--input-shadow: none;
+	--font-text: "宋体",SimSun;
+}
+@font-face { 
+	font-family: "宋体",SimSun;
+	/* Add other properties here, as needed. For example: */
+	/*
+	font-weight: 100 900;
+	font-style: normal italic;
+	*/
+	src: url();
+  }
+.markdown-rendered pre{
+	background-color: #f3f7e4;
+}
+body:not(.is-grabbing) .nav-folder-title:hover{
+	/* color: #636867 !important;  */
+	color: inherit; 
+}
+
+.collapse-icon svg.svg-icon {
+    color: #819881 !important;
+}
+
+.workspace-ribbon.mod-left{
+	margin-top: calc( var(--header-height) - 1px );
+}
+.workspace-ribbon .sidebar-toggle-button {
+    background: #a3d5aa !important;
+}
+.workspace-ribbon{
+	border-width: 0 !important;
+}
+.clickable-icon{
+	background-color: #a3d5aa;
+}
+.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+	display: none;
+}
+
+svg * {
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0;
+}
+
+.menu {
+	padding: var(--size-2-1);
+}
+
+.menu-item {
+	padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.theme-light,
+.a{
+
+}
