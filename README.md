@@ -1,7 +1,7 @@
 # Comfort-Obsidian-Theme
 
 This is a custom theme for Obsidian, helps you get the most of Obsidian. The theme is designed to provide a clean and comfort user interface, the style is sweet and  inspired by the japanese design style
-![Alt text](screenshot-large.png)
+![Alt text](screenshot.png)
 
 ## Features
 
