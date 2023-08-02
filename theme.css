@@ -24,6 +24,13 @@
 	--input-shadow: none;
 	--interactive-normal: #eff1df;
 	--interactive-hover: #e5e8c2;
+	--input-shadow-hover:none;
+	--text-muted:#8d9c8d;
+	/* --text-normal:#8d9c8d; */
+	--background-modifier-cover:#f9fcef;
+	--background-modifier-cover:#f6f9ec;
+	--background-modifier-error-hover:#e5bec5;
+	--background-modifier-error:#f1d4d9;
 }
 
 
@@ -69,14 +76,34 @@ body {
 	--background-modifier-border:rgba(0,0,0,0);
 	--input-shadow: none;
 	--font-text: "宋体",SimSun;
+	--input-shadow-hover:none;
+	--background-modifier-border-focus:#add4ad;
+	/* --modal-border-color: #eff3df; */
+	--modal-border-color: rgba(0,0,0,0);
+    --background-modifier-error: #c9627a;
+	--text-muted:#455445;
+	/* --fc-border-color:red; */
+}
+.fc .fc-daygrid-day.fc-day-today{
+	background-color: #f5f0dd;
+	background-color: #eef1e0;
+}
+button:hover{
+	box-shadow: none;
+}
+
+.fc-theme-standard td, .fc-theme-standard th{
+	/* border: 1px solid #f3fbf3; */
+	border: 1px solid #f5f7ee;
+}
+.fc .fc-button-primary:not(:disabled):active:focus, .fc .fc-button-primary:not(:disabled).fc-button-active:focus{
+	box-shadow: 0 0 0 0.1rem #92c292;
+}
+.fc-daygrid-dot-event:hover, .fc-daygrid-dot-event.fc-event-mirror{
+	background: rgba(255,255,255,0.9);
 }
 @font-face { 
 	font-family: "宋体",SimSun;
-	/* Add other properties here, as needed. For example: */
-	/*
-	font-weight: 100 900;
-	font-style: normal italic;
-	*/
 	src: url();
   }
 .markdown-rendered pre{
