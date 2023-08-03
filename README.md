@@ -1,7 +1,9 @@
-# Comfort-Obsidian-Theme
+# 🍵 Comfort-Obsidian-Theme
 
-This is a custom theme for Obsidian, helps you get the most of Obsidian. The theme is designed to provide a clean and comfort user interface, the style is sweet and  inspired by the japanese design style
+This is a custom theme for Obsidian, helps you get the most of Obsidian. The theme is designed to provide a clean and comfort user interface, the style is sweet and  inspired by the japanese design style something like matcha
 ![Alt text](screenshot-big.png)
+
+
 
 ## Features
 
@@ -10,6 +12,11 @@ This is a custom theme for Obsidian, helps you get the most of Obsidian. The the
 - now only the light mode,maybe later will update the dark mode.
 - A clean and minimalistic design, with improved readability
 - More features to come in future updates.
+
+### add background
+ - you can install Dynamic Background Plugin and upload the image [bg.png](./bg.png) on my repo
+
+![Alt text](screenshot-big-bg.png)
 
 
 ## Installation
