@@ -14,7 +14,7 @@ This is a custom theme for Obsidian, helps you get the most of Obsidian. The the
 - More features to come in future updates.
 
 ### add background
- - you can install Dynamic Background Plugin and upload the image [bg.png](./bg.png) on my repo
+ - you can install [Dynamic Background Plugin](https://github.com/samuelsong70/obsidian-dynamic-background/) and upload the image [bg.png](./bg.png) on my repo
 
 ![Alt text](screenshot-big-bg.png)
 
